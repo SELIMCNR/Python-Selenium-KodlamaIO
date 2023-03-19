@@ -153,6 +153,7 @@ print(yeniFiyat+10)
 
 def calculatePrice(price,discount):
     print(price-discount)
+    return price-discount
 
 def calculatePriceAndReturn(price,discount):
     return price-discount
