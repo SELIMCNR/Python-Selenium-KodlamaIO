@@ -1,5 +1,5 @@
 #Human.py içinde ekle Human ekle
-from Human import Human
+from human import Human
 
 # sınıflar => classlar
 # modules 
