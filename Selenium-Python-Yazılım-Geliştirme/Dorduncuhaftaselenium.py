@@ -9,6 +9,10 @@ from time import sleep
 from selenium.webdriver.common.by import By
 #chromedriver yaz internetetten chrome sürümüne göre chromedriveri winşeklini indir klasöre at.
 #klasöre içinde değilse parametreye ekle bilgileri  driver = webdriver.Chrome("C:\Dersler\Yazılım geliştirme\Görsel-Programlama-Python\Selenium-Python-Yazılım-Geliştirme")
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions
+
+
 driver = webdriver.Chrome(ChromeDriverManager().install()) #seleniumun kullanacağı tarayıcıyı ekle
 driver.maximize_window() #Pencereyi tam ekran yap
 driver.get("https://www.google.com/") #parametre içinde yazılan websiteye giden kod
